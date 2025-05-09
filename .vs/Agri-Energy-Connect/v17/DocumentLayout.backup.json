@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Refentse\\Desktop\\Agri-Energy-Connect\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA871799-01B9-DCF1-2580-812DAB36ECCD}|Agri-Energy-Connect.csproj|c:\\users\\refentse\\desktop\\agri-energy-connect\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{EA871799-01B9-DCF1-2580-812DAB36ECCD}|Agri-Energy-Connect.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA871799-01B9-DCF1-2580-812DAB36ECCD}|Agri-Energy-Connect.csproj|c:\\users\\refentse\\desktop\\agri-energy-connect\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA871799-01B9-DCF1-2580-812DAB36ECCD}|Agri-Energy-Connect.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EA871799-01B9-DCF1-2580-812DAB36ECCD}|Agri-Energy-Connect.csproj|c:\\users\\refentse\\desktop\\agri-energy-connect\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EA871799-01B9-DCF1-2580-812DAB36ECCD}|Agri-Energy-Connect.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA871799-01B9-DCF1-2580-812DAB36ECCD}|Agri-Energy-Connect.csproj|c:\\users\\refentse\\desktop\\agri-energy-connect\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{EA871799-01B9-DCF1-2580-812DAB36ECCD}|Agri-Energy-Connect.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA871799-01B9-DCF1-2580-812DAB36ECCD}|Agri-Energy-Connect.csproj|c:\\users\\refentse\\desktop\\agri-energy-connect\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -137,11 +137,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AgriDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Refentse\\Desktop\\Agri-Energy-Connect\\Data\\AgriDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AgriDbContext.cs",
@@ -149,12 +149,11 @@
               "RelativeToolTip": "Data\\AgriDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:56:35.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:56:35.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Refentse\\Desktop\\Agri-Energy-Connect\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -167,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AgriDbContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\Refentse\\Desktop\\Agri-Energy-Connect\\Data\\AgriDbContextFactory.cs",
               "RelativeDocumentMoniker": "Data\\AgriDbContextFactory.cs",
@@ -175,12 +174,11 @@
               "RelativeToolTip": "Data\\AgriDbContextFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:55:22.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:55:22.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\Refentse\\Desktop\\Agri-Energy-Connect\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -188,12 +186,11 @@
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T08:47:35.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:47:35.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Refentse\\Desktop\\Agri-Energy-Connect\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -201,12 +198,11 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T08:43:53.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:43:53.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Refentse\\Desktop\\Agri-Energy-Connect\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -214,12 +210,11 @@
               "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T08:43:49.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:43:49.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Refentse\\Desktop\\Agri-Energy-Connect\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
@@ -227,18 +222,17 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T08:43:29.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:43:29.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\Refentse\\Desktop\\Agri-Energy-Connect\\README.md",
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\Refentse\\Desktop\\Agri-Energy-Connect\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-05-09T08:40:12.887Z",
               "EditorCaption": ""
@@ -253,8 +247,7 @@
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T08:35:44.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:35:44.569Z"
             },
             {
               "$type": "Document",
@@ -266,8 +259,7 @@
               "RelativeToolTip": "Views\\Farmers\\Index.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T08:30:56.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:30:56.74Z"
             },
             {
               "$type": "Document",
@@ -303,8 +295,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAgwFkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T06:39:09.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T06:39:09.568Z"
             },
             {
               "$type": "Document",
@@ -320,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Refentse\\Desktop\\Agri-Energy-Connect\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -328,12 +319,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T06:39:38.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-04-30T06:39:38.8Z"
             },
             {
               "$type": "Document",
@@ -357,8 +343,7 @@
               "RelativeToolTip": "Controllers\\ProductsController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAqwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T10:07:52.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T10:07:52.873Z"
             },
             {
               "$type": "Document",
@@ -370,8 +355,7 @@
               "RelativeToolTip": "Views\\Products\\Index.cshtml",
               "ViewState": "AgIAAEAAAAAAAAAAAAAowEwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T06:22:30.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T06:22:30.269Z"
             },
             {
               "$type": "Document",
@@ -383,8 +367,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-30T06:37:12.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T06:37:12.333Z"
             },
             {
               "$type": "Document",
@@ -408,8 +391,7 @@
               "RelativeToolTip": "Views\\Products\\Create.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T11:09:29.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T11:09:29.733Z"
             },
             {
               "$type": "Document",
@@ -542,6 +524,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T06:36:26.414Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
