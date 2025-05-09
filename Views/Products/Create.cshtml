@@ -1,0 +1,58 @@
+﻿@model AgriEnergyConnect.Models.Product
+
+@{
+    ViewData["Title"] = "Create Product";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-header bg-success text-white rounded-top-4">
+            <h3 class="mb-0"><i class="bi bi-plus-circle-fill me-2"></i>Create New Product</h3>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create" class="row g-3">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="col-md-6">
+                    <label asp-for="Name" class="form-label fw-semibold">Product Name</label>
+                    <input asp-for="Name" class="form-control shadow-sm" placeholder="e.g. Organic Tomatoes" />
+                    <span asp-validation-for="Name" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Category" class="form-label fw-semibold">Category</label>
+                    <input asp-for="Category" class="form-control shadow-sm" placeholder="e.g. Vegetables" />
+                    <span asp-validation-for="Category" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="ProductURL" class="form-label fw-semibold">Product Image URL</label>
+                    <input asp-for="ProductURL" class="form-control shadow-sm" placeholder="https://example.com/image.jpg" />
+                    <span asp-validation-for="ProductURL" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="ProductionDate" class="form-label fw-semibold">Production Date</label>
+                    <input asp-for="ProductionDate" type="date" class="form-control shadow-sm" />
+                    <span asp-validation-for="ProductionDate" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="FarmerId" class="form-label fw-semibold">Select Farmer</label>
+                    <select asp-for="FarmerId" class="form-select shadow-sm" asp-items="ViewBag.FarmerId"></select>
+                </div>
+
+                <div class="col-12 d-flex justify-content-between mt-4">
+                    <a asp-action="Index" class="btn btn-outline-secondary rounded-pill px-4"><i class="bi bi-arrow-left"></i> Back to List</a>
+                    <button type="submit" class="btn btn-success rounded-pill px-5"><i class="bi bi-check-circle"></i> Create</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

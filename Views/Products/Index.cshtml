@@ -1,0 +1,108 @@
+﻿@model IEnumerable<AgriEnergyConnect.Models.Product>
+@{
+    ViewData["Title"] = "Products";
+
+    var selectedType = Context.Request.Query["productType"].ToString();
+    var startDate = Context.Request.Query["startDate"].ToString();
+    var endDate = Context.Request.Query["endDate"].ToString();
+}
+
+<!-- Container -->
+<div class="container mt-5">
+    <!-- Card -->
+    <div class="card shadow-lg border-0 rounded-4">
+        <!-- Card Header -->
+        <div class="card-header bg-primary text-white rounded-top-4 d-flex justify-content-between align-items-center">
+            <h3 class="mb-0">
+                <i class="bi bi-box-seam me-2"></i> Products
+            </h3>
+            <a asp-action="Create" class="btn btn-success rounded-pill px-4">
+                <i class="bi bi-plus-circle-fill me-1"></i> Create New
+            </a>
+        </div>
+
+        <!-- Card Body -->
+        <div class="card-body">
+            <!-- Filter Form -->
+            <form asp-action="Index" method="get" class="row g-3 mb-4">
+                <div class="col-md-4">
+                    <label for="productType" class="form-label fw-semibold">Product Type</label>
+                    <select name="productType" class="form-select shadow-sm" id="productType">
+                        <option value="" selected="@(string.IsNullOrEmpty(selectedType))">All</option>
+                        <option value="Vegetable" selected="@(selectedType == "Vegetable")">Vegetable</option>
+                        <option value="Fruit" selected="@(selectedType == "Fruit")">Fruit</option>
+                        <option value="Grain" selected="@(selectedType == "Grain")">Grain</option>
+                    </select>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="startDate" class="form-label fw-semibold">Start Date</label>
+                    <input type="date" name="startDate" class="form-control shadow-sm" value="@startDate" />
+                </div>
+
+                <div class="col-md-4">
+                    <label for="endDate" class="form-label fw-semibold">End Date</label>
+                    <input type="date" name="endDate" class="form-control shadow-sm" value="@endDate" />
+                </div>
+
+                <div class="col-12 d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary rounded-pill px-4">
+                        <i class="bi bi-funnel-fill me-1"></i> Filter
+                    </button>
+                </div>
+            </form>
+
+            <!-- Results -->
+            @if (!Model.Any())
+            {
+                <div class="alert alert-info text-center">
+                    <i class="bi bi-info-circle-fill me-2"></i>No products match your filter criteria.
+                </div>
+            }
+            else
+            {
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover align-middle shadow-sm">
+                        <thead class="table-light">
+                            <tr>
+                                <th>@Html.DisplayNameFor(model => model.First().Name)</th>
+                                <th>@Html.DisplayNameFor(model => model.First().Category)</th>
+                                <th>@Html.DisplayNameFor(model => model.First().ProductURL)</th>
+                                <th>@Html.DisplayNameFor(model => model.First().ProductionDate)</th>
+                                <th>@Html.DisplayNameFor(model => model.First().Farmer)</th>
+                                <th class="text-center">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Category)</td>
+                                    <td>
+                                        <a href="@item.ProductURL" target="_blank" class="text-decoration-none text-primary">
+                                            View Image
+                                        </a>
+                                    </td>
+                                    <td>@item.ProductionDate.ToString("yyyy-MM-dd")</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Farmer.Address)</td>
+                                    <td class="text-center">
+                                        <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-sm btn-warning rounded-pill me-1">
+                                            <i class="bi bi-pencil-square"></i>
+                                        </a>
+                                        <a asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-sm btn-info text-white rounded-pill me-1">
+                                            <i class="bi bi-eye-fill"></i>
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.ProductId" class="btn btn-sm btn-danger rounded-pill">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </div>
+    </div>
+</div>

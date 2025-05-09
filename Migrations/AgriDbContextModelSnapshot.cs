@@ -102,6 +102,10 @@ namespace Agri_Energy_Connect.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ProductURL")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("ProductionDate")
                         .HasColumnType("datetime2");
 

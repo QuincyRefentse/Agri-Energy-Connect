@@ -14,6 +14,8 @@ namespace AgriEnergyConnect.Models
 
         public string Category { get; set; }
 
+        public string ProductURL { get; set; }
+
         [DataType(DataType.Date)]
         public DateTime ProductionDate { get; set; }
 

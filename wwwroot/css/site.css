@@ -12,6 +12,56 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
+input.form-control, select.form-select {
+    border-radius: 12px;
+    padding: 10px 14px;
+}
+
+.card-header h3 i {
+    color: #ffffff;
+}
+
+.navbar .nav-link {
+    transition: color 0.3s ease;
+    color: #1c1c1c !important;
+    font-weight: 500;
+    /*transition: color 0.3s ease-in-out;*/
+}
+
+    .navbar .nav-link:hover {
+        color: #c8f7c5 !important;
+        text-decoration: underline;
+    }
+
+/* Gradient Navbar Enhancements */
+.navbar {
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* Fallback in case inline style removed */
+}
+
+   
+
+        
+
+    /* Optional: Button styling for call-to-action */
+    .navbar .btn-outline-dark {
+        border-color: #ffffff;
+        color: #ffffff;
+    }
+
+        .navbar .btn-outline-dark:hover {
+            background-color: #ffffff;
+            color: #56ab2f;
+            border-color: #ffffff;
+        }
+
+/* Optional: Darker footer to balance layout */
+footer.footer {
+    background-color: #f0f0f0;
+    color: #555;
+}
+
+
+
 html {
   position: relative;
   min-height: 100%;
